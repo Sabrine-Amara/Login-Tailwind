@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Challenge Tailwind</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./css/fontawesome-free-6.4.0-web/css/all.min.css">
+    <!-- Tailwind -->
+    <link rel="stylesheet" href="./dist/output.css">
+    <!-- main Css -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:ital,wght@1,100&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="min-h-screen box-border flex flex-row justify-center items-center bg-rose-200 ">
+        <div class="container  mx-auto flex flex-row flex-wrap  max-[575px]:flex-col-reverse  bg-white shadow-xl rounded-lg overflow-hidden">
+            <div class="p-8 flex-1 basis-72 text-center">
+                <h1 class="p-4 font-bold text-2xl">Login</h1>
+                <div class="py-2">
+                    <a href="#" class="pr-2 text-cyan-600 ">
+                        <i class="fa-brands fa-facebook text-xl"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-square-twitter text-xl"></i>
+                    </a>
+    
+                </div>
+                <p class="py-2 text-slate-400">or use your account</p>
+                <form class="flex flex-col  items-center max-w-lg" >
+                    <input type="email" placeholder="Email" class="p-2 my-2 bg-slate-200 w-full">
+                    <input type="password" placeholder="Password" class="p-2 my-2 bg-slate-200 w-full">
+                    <a href="#" class="py-2 text-slate-400">Forget your password?</a>
+                    <button type="submit" class="focus:outline-none text-slate-300 py-1.5 px-10 my-2 bg-orange-500 rounded-full" >Login</button>
+                </form>
+            </div>
+            <div class="p-4  flex-1 basis-72 text-center flex flex-col justify-center items-center bg-cover bg-center" style="
+            background-image: url('./images/abstract-background-from-brilliant-mosaic-pattern-generative-ai.jpg')">
+                <h1 class="py-4 font-bold text-2xl text-white">Login Form with Jsx</h1>
+                <p class="text-slate-300">This login form is created using pure HTML and Css.For social icons, FontAwesome is used. </p>
+            </div>
+        </div>
+    </div>
+   
+
+</body>
+
+</html>
