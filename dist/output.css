@@ -760,4 +760,9 @@ video {
   .max-\[575px\]\:flex-col-reverse {
     flex-direction: column-reverse;
   }
+
+  .max-\[575px\]\:bg-white {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  }
 }
